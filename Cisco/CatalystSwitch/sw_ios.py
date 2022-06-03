@@ -75,7 +75,7 @@ class Catalyst_SW(Network):
             return ssh_functions.get_span(self.ssh_client)
 
     class SNMP(Network):
-        def __init__(self, ip: str, snmp_community: str = "modbtup"):
+        def __init__(self, ip: str, snmp_community: str = ""):
             super().__init__(ip)
             super().get_snmp(community=snmp_community)
 

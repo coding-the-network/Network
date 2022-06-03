@@ -14,7 +14,7 @@ class F5:
             if(readonly):
                 self.headers = {
                     'content-type': "application/json",
-                    'authorization': "Basic ZjVyZWFkb25seTp4a1lqVjhlUQ==",
+                    'authorization': "",
                     'cache-control': "no-cache"
                 }
             else:
