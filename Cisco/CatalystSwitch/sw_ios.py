@@ -7,7 +7,7 @@ SSH_PORT = 22
 
 
 class Catalyst_SW(Network):
-    # def __init__(self, ip: str, port: int = SSH_PORT, snmp_community: str = "modbtup"):
+    # def __init__(self, ip: str, port: int = SSH_PORT, snmp_community: str = ""):
     #    super().__init__(ip, port, snmp_community)
     class SSH(Network):
         def __init__(self, ip: str, username: str, password: str, port: int = SSH_PORT):
